@@ -1,0 +1,313 @@
+area,original_police_station,matched_tgrac_station,match_score,match_status,latitude,longitude
+Gachibowli,Gachibowli Police Station,Saifabad Old PS,0.424,UNMATCHED,17.40260950418656,78.4628540734598
+Kondapur,Gachibowli Police Station,Saifabad Old PS,0.424,UNMATCHED,17.40260950418656,78.4628540734598
+Kukatpally,Kukatpally Police Station,Chikkadpally PS,0.606,LOW,17.408889814641352,78.49738971584661
+Miyapur,Miyapur Police Station,Moghalpura PS,0.5,LOW,17.35057888310834,78.47884911365695
+Manikonda,Raidurgam Police Station,Chadarghat PS Building,0.444,UNMATCHED,17.378050401742467,78.49183436096206
+Hitech City,Madhapur Police Station,Moghalpura PS,0.552,LOW,17.35057888310834,78.47884911365695
+Madhapur,Madhapur Police Station,Moghalpura PS,0.552,LOW,17.35057888310834,78.47884911365695
+Nallagandla,Chandanagar Police Station,Gandhinagar PS,0.606,LOW,17.430629801392875,78.49703896281997
+Madinaguda,Miyapur Police Station,Moghalpura PS,0.5,LOW,17.35057888310834,78.47884911365695
+Narsingi,Narsingi Police Station,Humayun_nagar_PS_&_ACP_Asif_nagar_division,0.421,UNMATCHED,17.395574603557584,78.44236657241139
+Chanda Nagar,Chandanagar Police Station,Gandhinagar PS,0.606,LOW,17.430629801392875,78.49703896281997
+Appa Junction,Rajendranagar Police Station,Gandhinagar PS,0.571,LOW,17.430629801392875,78.49703896281997
+Nizampet,Bachupally Police Station,Chikkadpally PS,0.545,LOW,17.408889814641352,78.49738971584661
+Banjara Hills,Banjara Hills Police Station,Banjara Hills PS,0.811,MEDIUM,17.423051842195797,78.43619625352656
+Secunderabad,Secunderabad Police Station,Musheerabad PS,0.588,LOW,17.41938218594895,78.50027317304769
+Begumpet,Begumpet Police Station,Begumpet PS,0.741,MEDIUM,17.44516199134444,78.47394511198175
+Bachupally,Bachupally Police Station,Chikkadpally PS,0.545,LOW,17.408889814641352,78.49738971584661
+Kompally,Petbasheerabad Police Station,Musheerabad PS,0.611,LOW,17.41938218594895,78.50027317304769
+KPHB Colony,KPHB Police Station,Chatrinaka PS (New ),0.385,UNMATCHED,17.33987991208103,78.48010891282199
+Adibatla,Adibatla Police Station,Gandhinagar PS,0.467,UNMATCHED,17.430629801392875,78.49703896281997
+Gajularamaram,Jeedimetla Police Station,Begumpet PS,0.414,UNMATCHED,17.44516199134444,78.47394511198175
+Hafeezpet,Miyapur Police Station,Moghalpura PS,0.5,LOW,17.35057888310834,78.47884911365695
+Pragathi Nagar,Bachupally Police Station,Chikkadpally PS,0.545,LOW,17.408889814641352,78.49738971584661
+Gopanpally,Gachibowli Police Station,Saifabad Old PS,0.424,UNMATCHED,17.40260950418656,78.4628540734598
+Puppalaguda,Narsingi Police Station,Humayun_nagar_PS_&_ACP_Asif_nagar_division,0.421,UNMATCHED,17.395574603557584,78.44236657241139
+Shadnagar,Shadnagar Police Station,Habeebnagar_PS,0.581,LOW,17.389867280590032,78.46284674845745
+Jubilee Hills,Jubilee Hills Police Station,Jubilee Hills PS,0.811,MEDIUM,17.43060325248873,78.40912999439273
+Attapur,Rajendranagar Police Station,Gandhinagar PS,0.571,LOW,17.430629801392875,78.49703896281997
+Ameerpet,SR Nagar Police Station,SR_Nagar_PS,0.741,MEDIUM,17.4406022910235,78.44268720104698
+Alwal,Alwal Police Station,Malakpet PS,0.417,UNMATCHED,17.370483105794303,78.51209037039057
+Beeramguda,Ameenpur Police Station,Dabeerpura PS,0.552,LOW,17.366561442046592,78.48931858991676
+Uppal,Uppal Police Station,Nampally PS & Tr.PS(Tr.PS),0.387,UNMATCHED,17.39976648236039,78.45955523636131
+Bandlaguda,Bandlaguda Police Station,Chilkalguda PS,0.5,LOW,17.430695900791868,78.51353880833102
+Tellapur,Ramachandrapuram Police Station,Moghalpura PS,0.486,UNMATCHED,17.35057888310834,78.47884911365695
+Patancheru,Patancheru Police Station,Langer_House_PS,0.424,UNMATCHED,17.378213937270864,78.42165085868263
+Kollur,BDL Bhanur Police Station,Bhavani Nagar PS,0.412,UNMATCHED,17.35488264225087,78.48763870304802
+Shamshabad,Shamshabad Police Station,Saifabad PS,0.552,LOW,17.40320795518996,78.47245161532967
+Dilsukhnagar,Dilsukhnagar Police Station,Gandhinagar PS,0.529,LOW,17.430629801392875,78.49703896281997
+Malkajgiri,Malkajgiri Police Station,Mahankali PS,0.467,UNMATCHED,17.435993313817704,78.49096729321961
+Boduppal,Medipally Police Station,Marredpally PS,0.645,LOW,17.451382682131534,78.50537252510067
+Srisailam Highway,Pahadi Shareef Police Station,Bhavani Nagar PS,0.421,UNMATCHED,17.35488264225087,78.48763870304802
+Yapral,Jawaharnagar Police Station,Habeebnagar_PS,0.529,LOW,17.389867280590032,78.46284674845745
+LB Nagar,LB Nagar Police Station,SR_Nagar_PS,0.593,LOW,17.4406022910235,78.44268720104698
+Sanath Nagar,Sanathnagar Police Station,Gandhinagar PS,0.606,LOW,17.430629801392875,78.49703896281997
+Sainikpuri,Neredmet Police Station,Begumpet PS,0.444,UNMATCHED,17.44516199134444,78.47394511198175
+Nagole,Nagole Police Station,Ramgopalpet PS,0.5,LOW,17.436384187174937,78.48844989845288
+Mokila,Mokila Police Station,Moghalpura PS,0.444,UNMATCHED,17.35057888310834,78.47884911365695
+Hayathnagar,Hayathnagar Police Station,Bhavani Nagar PS,0.571,LOW,17.35488264225087,78.48763870304802
+Bhanur,BDL Bhanur Police Station,Bhavani Nagar PS,0.412,UNMATCHED,17.35488264225087,78.48763870304802
+Dammaiguda,Jawaharnagar Police Station,Habeebnagar_PS,0.529,LOW,17.389867280590032,78.46284674845745
+Kokapet,Narsingi Police Station,Humayun_nagar_PS_&_ACP_Asif_nagar_division,0.421,UNMATCHED,17.395574603557584,78.44236657241139
+Tolichowki,Golconda Police Station,Golconda PS,0.741,MEDIUM,17.390448334038723,78.40539750475249
+Himayatnagar,Himayatnagar Police Station,Habeebnagar_PS,0.529,LOW,17.389867280590032,78.46284674845745
+Vanasthalipuram,Vanasthalipuram Police Station,Moghalpura PS,0.5,LOW,17.35057888310834,78.47884911365695
+Moosapet,Kukatpally Police Station,Chikkadpally PS,0.606,LOW,17.408889814641352,78.49738971584661
+Motinagar,Sanathnagar Police Station,Gandhinagar PS,0.606,LOW,17.430629801392875,78.49703896281997
+Lingampally,Chandanagar Police Station,Gandhinagar PS,0.606,LOW,17.430629801392875,78.49703896281997
+Nizampet Road,Kukatpally Police Station,Chikkadpally PS,0.606,LOW,17.408889814641352,78.49738971584661
+Moinabad,Moinabad Police Station,Saifabad PS,0.519,LOW,17.40320795518996,78.47245161532967
+Whitefield,Kondapur Police Station,Dabeerpura PS,0.483,UNMATCHED,17.366561442046592,78.48931858991676
+Rajendra Nagar,Rajendranagar Police Station,Gandhinagar PS,0.571,LOW,17.430629801392875,78.49703896281997
+Financial District,Gachibowli Police Station,Saifabad Old PS,0.424,UNMATCHED,17.40260950418656,78.4628540734598
+Shaikpet,Golconda Police Station,Golconda PS,0.741,MEDIUM,17.390448334038723,78.40539750475249
+Chilkur,Moinabad Police Station,Saifabad PS,0.519,LOW,17.40320795518996,78.47245161532967
+Mehdipatnam,Mehdipatnam Police Station,Marredpally PS,0.424,UNMATCHED,17.451382682131534,78.50537252510067
+Shamirpet,Shamirpet Police Station,Amberpet old PS,0.5,LOW,17.392285298560875,78.51668184863159
+Habsiguda,Osmania University Police Station,Banjara Hills PS,0.381,UNMATCHED,17.423051842195797,78.43619625352656
+Ameenpur,Ameenpur Police Station,Dabeerpura PS,0.552,LOW,17.366561442046592,78.48931858991676
+Bolaram,Bolaram Police Station,Bollarum PS,0.615,LOW,17.51783748731024,78.51955122623737
+Chintal,Jeedimetla Police Station,Begumpet PS,0.414,UNMATCHED,17.44516199134444,78.47394511198175
+Rampally,Ghatkesar Police Station,Habeebnagar_PS,0.452,UNMATCHED,17.389867280590032,78.46284674845745
+Bibinagar,Bibinagar Police Station,Habeebnagar_PS,0.581,LOW,17.389867280590032,78.46284674845745
+Nanakramguda,Gachibowli Police Station,Saifabad Old PS,0.424,UNMATCHED,17.40260950418656,78.4628540734598
+Kothapet,Chaitanyapuri Police Station,Charminar PS & ACP Charminar,0.458,UNMATCHED,17.36190353391467,78.47440837561214
+Nacharam,Nacharam Police Station,Tappachabutra_PS,0.5,LOW,17.37519557161588,78.44928433657503
+Ghatkesar,Ghatkesar Police Station,Habeebnagar_PS,0.452,UNMATCHED,17.389867280590032,78.46284674845745
+Kothaguda,Madhapur Police Station,Moghalpura PS,0.552,LOW,17.35057888310834,78.47884911365695
+Mallapur,Nacharam Police Station,Tappachabutra_PS,0.5,LOW,17.37519557161588,78.44928433657503
+West Marredpally,Marredpally Police Station,Marredpally PS,0.788,MEDIUM,17.451382682131534,78.50537252510067
+AS Rao Nagar,Kushaiguda Police Station,Chilkalguda PS,0.5,LOW,17.430695900791868,78.51353880833102
+Tarnaka,Lallaguda Police Station,Chilkalguda PS,0.581,LOW,17.430695900791868,78.51353880833102
+Tukkuguda,Pahadi Shareef Police Station,Bhavani Nagar PS,0.421,UNMATCHED,17.35488264225087,78.48763870304802
+Trimulgherry,Trimulgherry Police Station,Tirmulgherry Traffic PS,0.605,LOW,17.472322709895035,78.50964905098365
+Bowenpally,Bowenpally Police Station,Police Line Bowenpally & PS,0.511,LOW,17.46454543206288,78.47206165436793
+Kapra,Kushaiguda Police Station,Chilkalguda PS,0.5,LOW,17.430695900791868,78.51353880833102
+Kismatpur,Rajendranagar Police Station,Gandhinagar PS,0.571,LOW,17.430629801392875,78.49703896281997
+ECIL,Kushaiguda Police Station,Chilkalguda PS,0.5,LOW,17.430695900791868,78.51353880833102
+Ramanthapur,Uppal Police Station,Nampally PS & Tr.PS(Tr.PS),0.387,UNMATCHED,17.39976648236039,78.45955523636131
+Suchitra Road,Petbasheerabad Police Station,Musheerabad PS,0.611,LOW,17.41938218594895,78.50027317304769
+Kavadiguda,Gandhinagar Police Station,Gandhinagar PS,0.788,MEDIUM,17.430629801392875,78.49703896281997
+Kachiguda,Kachiguda Police Station,Kachiguda Traffic PS,0.595,LOW,17.382364012563677,78.4935939023342
+Nagaram,Kushaiguda Police Station,Chilkalguda PS,0.5,LOW,17.430695900791868,78.51353880833102
+Sri Nagar Colony,SR Nagar Police Station,SR_Nagar_PS,0.741,MEDIUM,17.4406022910235,78.44268720104698
+Osman Nagar,Ramachandrapuram Police Station,Moghalpura PS,0.486,UNMATCHED,17.35057888310834,78.47884911365695
+Rudraram,Patancheru Police Station,Langer_House_PS,0.424,UNMATCHED,17.378213937270864,78.42165085868263
+Borabanda,SR Nagar Police Station,SR_Nagar_PS,0.741,MEDIUM,17.4406022910235,78.44268720104698
+Hyder Nagar,KPHB Police Station,Chatrinaka PS (New ),0.385,UNMATCHED,17.33987991208103,78.48010891282199
+Old Bowenpally,Bowenpally Police Station,Police Line Bowenpally & PS,0.511,LOW,17.46454543206288,78.47206165436793
+Neredmet,Neredmet Police Station,Begumpet PS,0.444,UNMATCHED,17.44516199134444,78.47394511198175
+Somajiguda,Punjagutta Police Station,Panjagutta_PS_2,0.667,MEDIUM,17.425901841531967,78.45251535712849
+Malakpet,Malakpet Police Station,Malakpet PS,0.741,MEDIUM,17.370483105794303,78.51209037039057
+Sanjeeva Reddy Nagar,SR Nagar Police Station,SR_Nagar_PS,0.741,MEDIUM,17.4406022910235,78.44268720104698
+Pocharam,Pocharam IT Corridor Police Station,Chadarghat PS Building,0.468,UNMATCHED,17.378050401742467,78.49183436096206
+Serilingampally,Chandanagar Police Station,Gandhinagar PS,0.606,LOW,17.430629801392875,78.49703896281997
+Balanagar,Balanagar Police Station,Bhavani Nagar PS,0.606,LOW,17.35488264225087,78.48763870304802
+Mallampet,Dundigal Police Station,Gandhinagar PS,0.467,UNMATCHED,17.430629801392875,78.49703896281997
+Bhogaram,Keesara Police Station,Karkhana PS,0.462,UNMATCHED,17.461866935526206,78.50049772104443
+Madhuranagar,SR Nagar Police Station,SR_Nagar_PS,0.741,MEDIUM,17.4406022910235,78.44268720104698
+Mettuguda,Lallaguda Police Station,Chilkalguda PS,0.581,LOW,17.430695900791868,78.51353880833102
+Warangal Highway,Ghatkesar Police Station,Habeebnagar_PS,0.452,UNMATCHED,17.389867280590032,78.46284674845745
+Kothur,Kothur Police Station,Moghalpura PS,0.444,UNMATCHED,17.35057888310834,78.47884911365695
+Medchal,Medchal Police Station,Marredpally PS,0.483,UNMATCHED,17.451382682131534,78.50537252510067
+Srinagar Colony,SR Nagar Police Station,SR_Nagar_PS,0.741,MEDIUM,17.4406022910235,78.44268720104698
+Saroor Nagar,Saroornagar Police Station,SR_Nagar_PS,0.6,LOW,17.4406022910235,78.44268720104698
+Maheshwaram,Maheshwaram Police Station,Musheerabad PS,0.424,UNMATCHED,17.41938218594895,78.50027317304769
+Amberpet,Amberpet Police Station,Amberpet old PS,0.645,LOW,17.392285298560875,78.51668184863159
+Langar Houz,Langar Houz Police Station,Langer_House_PS,0.647,LOW,17.378213937270864,78.42165085868263
+Shankarpalli,Shankarpally Police Station,Chikkadpally PS,0.571,LOW,17.408889814641352,78.49738971584661
+Khairatabad,Khairatabad Police Station,Saifabad PS,0.533,LOW,17.40320795518996,78.47245161532967
+Abids,Abids Police Station,"Bansilalpet Old Traffic PS,",0.389,UNMATCHED,17.43111384154843,78.4924373317577
+Kavuri Hills,Madhapur Police Station,Moghalpura PS,0.552,LOW,17.35057888310834,78.47884911365695
+East Marredpally,Marredpally Police Station,Marredpally PS,0.788,MEDIUM,17.451382682131534,78.50537252510067
+Dundigal,Dundigal Police Station,Gandhinagar PS,0.467,UNMATCHED,17.430629801392875,78.49703896281997
+Padma Rao Nagar,Chilakalguda Police Station,Chilkalguda PS,0.765,MEDIUM,17.430695900791868,78.51353880833102
+Medipalli,Medipalli Police Station,Marredpally PS,0.581,LOW,17.451382682131534,78.50537252510067
+Bhongir,Bhongir Town Police Station,Charminar Tr. PS,0.4,UNMATCHED,17.3617769711545,78.47516624126203
+Peerzadiguda,Medipalli Police Station,Marredpally PS,0.581,LOW,17.451382682131534,78.50537252510067
+Bahadurpally,Dundigal Police Station,Gandhinagar PS,0.467,UNMATCHED,17.430629801392875,78.49703896281997
+Quthbullapur,Jeedimetla Police Station,Begumpet PS,0.414,UNMATCHED,17.44516199134444,78.47394511198175
+Shanthi Nagar,Masab Tank Police Station,Mahankali PS,0.467,UNMATCHED,17.435993313817704,78.49096729321961
+Nallakunta,Nallakunta Police Station,Nallakunta Tr.PS,0.706,MEDIUM,17.407716031874426,78.51323553085685
+Gandi Maisamma,Dundigal Police Station,Gandhinagar PS,0.467,UNMATCHED,17.430629801392875,78.49703896281997
+Badangpet,Meerpet Police Station,Amberpet old PS,0.533,LOW,17.392285298560875,78.51668184863159
+Masab Tank,Humayun Nagar Police Station,Humayun_nagar_PS_&_ACP_Asif_nagar_division,0.613,LOW,17.395574603557584,78.44236657241139
+Ibrahimpatnam,Ibrahimpatnam Police Station,Ramgopalpet PS,0.457,UNMATCHED,17.436384187174937,78.48844989845288
+Moula Ali,Malkajgiri Police Station,Mahankali PS,0.467,UNMATCHED,17.435993313817704,78.49096729321961
+Ramchandra Puram,Ramachandrapuram Police Station,Moghalpura PS,0.486,UNMATCHED,17.35057888310834,78.47884911365695
+Saidabad,Saidabad Police Station,Saifabad PS,0.667,MEDIUM,17.40320795518996,78.47245161532967
+Lakdi Ka Pul,Saifabad Police Station,Saifabad PS,0.741,MEDIUM,17.40320795518996,78.47245161532967
+Punjagutta,Punjagutta Police Station,Panjagutta_PS_2,0.667,MEDIUM,17.425901841531967,78.45251535712849
+Cherlapally,Charlapally Police Station,Chikkadpally PS,0.588,LOW,17.408889814641352,78.49738971584661
+Gandhi Nagar,Gandhinagar Police Station,Gandhinagar PS,0.788,MEDIUM,17.430629801392875,78.49703896281997
+Manchirevula,Narsingi Police Station,Humayun_nagar_PS_&_ACP_Asif_nagar_division,0.421,UNMATCHED,17.395574603557584,78.44236657241139
+Hyderguda,Narayanguda Police Station,Narayanaguda Tr. PS,0.703,MEDIUM,17.394899002366238,78.48539058101356
+Anandbagh,Malkajgiri Police Station,Mahankali PS,0.467,UNMATCHED,17.435993313817704,78.49096729321961
+Turkayamjal,Adibatla Police Station,Gandhinagar PS,0.467,UNMATCHED,17.430629801392875,78.49703896281997
+Kushaiguda,Kushaiguda Police Station,Chilkalguda PS,0.5,LOW,17.430695900791868,78.51353880833102
+Bowrampet,Dundigal Police Station,Gandhinagar PS,0.467,UNMATCHED,17.430629801392875,78.49703896281997
+Velimela,BDL Bhanur Police Station,Bhavani Nagar PS,0.412,UNMATCHED,17.35488264225087,78.48763870304802
+Jeedimetla,Jeedimetla Police Station,Begumpet PS,0.414,UNMATCHED,17.44516199134444,78.47394511198175
+Upperpally,Rajendranagar Police Station,Gandhinagar PS,0.571,LOW,17.430629801392875,78.49703896281997
+Nandigama,Patancheru Police Station,Langer_House_PS,0.424,UNMATCHED,17.378213937270864,78.42165085868263
+Musheerabad,Musheerabad Police Station,Musheerabad PS,0.788,MEDIUM,17.41938218594895,78.50027317304769
+Balapur,Balapur Police Station,Moghalpura PS,0.5,LOW,17.35057888310834,78.47884911365695
+Chikkadapally,Chikkadpally Police Station,Chikkadpally PS,0.8,MEDIUM,17.408889814641352,78.49738971584661
+Ramakrishnapuram,Neredmet Police Station,Begumpet PS,0.444,UNMATCHED,17.44516199134444,78.47394511198175
+Gurram Guda,Meerpet Police Station,Amberpet old PS,0.533,LOW,17.392285298560875,78.51668184863159
+Vijayawada Highway,Hayathnagar Police Station,Bhavani Nagar PS,0.571,LOW,17.35488264225087,78.48763870304802
+Hasmathpet,Bowenpally Police Station,Police Line Bowenpally & PS,0.511,LOW,17.46454543206288,78.47206165436793
+New Nallakunta,Nallakunta Police Station,Nallakunta Tr.PS,0.706,MEDIUM,17.407716031874426,78.51323553085685
+Karmanghat,Saroornagar Police Station,SR_Nagar_PS,0.6,LOW,17.4406022910235,78.44268720104698
+Yousufguda,Jubilee Hills Police Station,Jubilee Hills PS,0.811,MEDIUM,17.43060325248873,78.40912999439273
+Basheerbagh,Saifabad Police Station,Saifabad PS,0.741,MEDIUM,17.40320795518996,78.47245161532967
+Meerpet,Meerpet Police Station,Amberpet old PS,0.533,LOW,17.392285298560875,78.51668184863159
+Nampally,Nampally Police Station,Nampally PS & Tr.PS(Tr.PS),0.647,LOW,17.39976648236039,78.45955523636131
+Isnapur,Patancheru Police Station,Langer_House_PS,0.424,UNMATCHED,17.378213937270864,78.42165085868263
+Film Nagar,Banjara Hills Police Station,Banjara Hills PS,0.811,MEDIUM,17.423051842195797,78.43619625352656
+Raikal,Shadnagar Police Station,Habeebnagar_PS,0.581,LOW,17.389867280590032,78.46284674845745
+Kowkur,Jawaharnagar Police Station,Habeebnagar_PS,0.529,LOW,17.389867280590032,78.46284674845745
+Lalapet,Lallaguda Police Station,Chilkalguda PS,0.581,LOW,17.430695900791868,78.51353880833102
+Upparpally,Rajendranagar Police Station,Gandhinagar PS,0.571,LOW,17.430629801392875,78.49703896281997
+Patancheru-Shankarpalli Road,Patancheru Police Station,Langer_House_PS,0.424,UNMATCHED,17.378213937270864,78.42165085868263
+Kandukur,Kandukur Police Station,Chadarghat PS Building,0.4,UNMATCHED,17.378050401742467,78.49183436096206
+Sangareddy,Sangareddy Town Police Station,Saifabad Tr.PS,0.432,UNMATCHED,17.411131855910792,78.4647292173209
+Chevalla,Chevalla Police Station,Chilkalguda PS,0.467,UNMATCHED,17.430695900791868,78.51353880833102
+Manneguda,Hayathnagar Police Station,Bhavani Nagar PS,0.571,LOW,17.35488264225087,78.48763870304802
+Almasguda,Meerpet Police Station,Amberpet old PS,0.533,LOW,17.392285298560875,78.51668184863159
+Bandlaguda - Nagole,Nagole Police Station,Ramgopalpet PS,0.5,LOW,17.436384187174937,78.48844989845288
+Gandipet,Narsingi Police Station,Humayun_nagar_PS_&_ACP_Asif_nagar_division,0.421,UNMATCHED,17.395574603557584,78.44236657241139
+BN Reddy Nagar,Vanasthalipuram Police Station,Moghalpura PS,0.5,LOW,17.35057888310834,78.47884911365695
+Narayanguda,Narayanguda Police Station,Narayanaguda Tr. PS,0.703,MEDIUM,17.394899002366238,78.48539058101356
+Mansoorabad,LB Nagar Police Station,SR_Nagar_PS,0.593,LOW,17.4406022910235,78.44268720104698
+Bhuvanagiri,Bhongir Town Police Station,Charminar Tr. PS,0.4,UNMATCHED,17.3617769711545,78.47516624126203
+Gudimalkapur,Asif Nagar Police Station,SR_Nagar_PS,0.621,LOW,17.4406022910235,78.44268720104698
+Ramoji Film City,Hayathnagar Police Station,Bhavani Nagar PS,0.571,LOW,17.35488264225087,78.48763870304802
+Maruti Nagar,Saroornagar Police Station,SR_Nagar_PS,0.6,LOW,17.4406022910235,78.44268720104698
+Domalguda,Chikkadpally Police Station,Chikkadpally PS,0.8,MEDIUM,17.408889814641352,78.49738971584661
+Hastinapuram,Vanasthalipuram Police Station,Moghalpura PS,0.5,LOW,17.35057888310834,78.47884911365695
+Champapet,Saidabad Police Station,Saifabad PS,0.667,MEDIUM,17.40320795518996,78.47245161532967
+Patighanpur,BDL Bhanur Police Station,Bhavani Nagar PS,0.412,UNMATCHED,17.35488264225087,78.48763870304802
+Keesara,Keesara Police Station,Karkhana PS,0.462,UNMATCHED,17.461866935526206,78.50049772104443
+Mehadipatnam,Mehdipatnam Police Station,Marredpally PS,0.424,UNMATCHED,17.451382682131534,78.50537252510067
+Karkhana,Karkhana Police Station,Karkhana PS,0.741,MEDIUM,17.461866935526206,78.50049772104443
+Santosh Nagar,Santoshnagar Police Station,Gandhinagar PS,0.588,LOW,17.430629801392875,78.49703896281997
+Sitaphalmandi,Chilakalguda Police Station,Chilkalguda PS,0.765,MEDIUM,17.430695900791868,78.51353880833102
+Nadergul,Pahadi Shareef Police Station,Bhavani Nagar PS,0.421,UNMATCHED,17.35488264225087,78.48763870304802
+Shamshabad Road,Shamshabad Police Station,Saifabad PS,0.552,LOW,17.40320795518996,78.47245161532967
+Pet Basheerabad,Petbasheerabad Police Station,Musheerabad PS,0.611,LOW,17.41938218594895,78.50027317304769
+Bhoiguda,Chilakalguda Police Station,Chilkalguda PS,0.765,MEDIUM,17.430695900791868,78.51353880833102
+Gundlapochampally,Petbasheerabad Police Station,Musheerabad PS,0.611,LOW,17.41938218594895,78.50027317304769
+Rai Durg,Raidurgam Police Station,Chadarghat PS Building,0.444,UNMATCHED,17.378050401742467,78.49183436096206
+Chandrayanagutta,Chandrayangutta Police Station,Chandrayangutta PS,0.829,MEDIUM,17.32486980020091,78.47971175358313
+Gagillapur,Dundigal Police Station,Gandhinagar PS,0.467,UNMATCHED,17.430629801392875,78.49703896281997
+Erragadda,Sanathnagar Police Station,Gandhinagar PS,0.606,LOW,17.430629801392875,78.49703896281997
+Rajeev Nagar,SR Nagar Police Station,SR_Nagar_PS,0.741,MEDIUM,17.4406022910235,78.44268720104698
+Moosarambagh,Malakpet Police Station,Malakpet PS,0.741,MEDIUM,17.370483105794303,78.51209037039057
+Prashanth Nagar,Kukatpally Police Station,Chikkadpally PS,0.606,LOW,17.408889814641352,78.49738971584661
+Thimmapur,Kothur Police Station,Moghalpura PS,0.444,UNMATCHED,17.35057888310834,78.47884911365695
+Koti,Koti Police Station,Malakpet PS,0.348,UNMATCHED,17.370483105794303,78.51209037039057
+Suraram,Dundigal Police Station,Gandhinagar PS,0.467,UNMATCHED,17.430629801392875,78.49703896281997
+Gunrock Enclave,Karkhana Police Station,Karkhana PS,0.741,MEDIUM,17.461866935526206,78.50049772104443
+Golkonda,Golconda Police Station,Golconda PS,0.741,MEDIUM,17.390448334038723,78.40539750475249
+Qutub Shahi Tombs,Golconda Police Station,Golconda PS,0.741,MEDIUM,17.390448334038723,78.40539750475249
+Peerancheru,Rajendranagar Police Station,Gandhinagar PS,0.571,LOW,17.430629801392875,78.49703896281997
+New Mallepally,Habeebnagar Police Station,Habeebnagar_PS,0.788,MEDIUM,17.389867280590032,78.46284674845745
+Adikmet,Nallakunta Police Station,Nallakunta Tr.PS,0.706,MEDIUM,17.407716031874426,78.51323553085685
+Sivarampalli,Rajendranagar Police Station,Gandhinagar PS,0.571,LOW,17.430629801392875,78.49703896281997
+Ram Nagar,Musheerabad Police Station,Musheerabad PS,0.788,MEDIUM,17.41938218594895,78.50027317304769
+New Malakpet,Malakpet Police Station,Malakpet PS,0.741,MEDIUM,17.370483105794303,78.51209037039057
+Falaknuma,Falaknuma Police Station,Nallakunta Tr.PS,0.485,UNMATCHED,17.407716031874426,78.51323553085685
+Pochampally,Bhuvanagiri Police Station,Bhavani Nagar PS,0.571,LOW,17.35488264225087,78.48763870304802
+Muthangi,Patancheru Police Station,Langer_House_PS,0.424,UNMATCHED,17.378213937270864,78.42165085868263
+Raj Bhavan Road,Punjagutta Police Station,Panjagutta_PS_2,0.667,MEDIUM,17.425901841531967,78.45251535712849
+Katedan,Mailardevpally Police Station,Marredpally PS,0.611,LOW,17.451382682131534,78.50537252510067
+Venkatapuram,Alwal Police Station,Malakpet PS,0.417,UNMATCHED,17.370483105794303,78.51209037039057
+Budvel,Rajendranagar Police Station,Gandhinagar PS,0.571,LOW,17.430629801392875,78.49703896281997
+Chintalkunta,LB Nagar Police Station,SR_Nagar_PS,0.593,LOW,17.4406022910235,78.44268720104698
+Ramgopalpet,Ramgopalpet Police Station,Ramgopalpet PS,0.788,MEDIUM,17.436384187174937,78.48844989845288
+Outer Ring Road,Shamshabad Police Station,Saifabad PS,0.552,LOW,17.40320795518996,78.47245161532967
+NH-9 Highway,Hayathnagar Police Station,Bhavani Nagar PS,0.571,LOW,17.35488264225087,78.48763870304802
+Surya Nagar Colony,Alwal Police Station,Malakpet PS,0.417,UNMATCHED,17.370483105794303,78.51209037039057
+NH-7,Medchal Police Station,Marredpally PS,0.483,UNMATCHED,17.451382682131534,78.50537252510067
+R.K.Puram,Neredmet Police Station,Begumpet PS,0.444,UNMATCHED,17.44516199134444,78.47394511198175
+Subhash Nagar,Jeedimetla Police Station,Begumpet PS,0.414,UNMATCHED,17.44516199134444,78.47394511198175
+Jalpally,Pahadi Shareef Police Station,Bhavani Nagar PS,0.421,UNMATCHED,17.35488264225087,78.48763870304802
+Nagarjuna Sagar Road,Ibrahimpatnam Police Station,Ramgopalpet PS,0.457,UNMATCHED,17.436384187174937,78.48844989845288
+Kalasiguda,Gopalapuram Police Station,Gopalpuram PS & Barracks,0.571,LOW,17.437087475356556,78.50457836195113
+Bahadurpura,Bahadurpura Police Station,Dabeerpura PS,0.5,LOW,17.366561442046592,78.48931858991676
+Chowdhariguda,Ghatkesar Police Station,Habeebnagar_PS,0.452,UNMATCHED,17.389867280590032,78.46284674845745
+Narsapur,Narsapur Police Station,Dabeerpura PS,0.483,UNMATCHED,17.366561442046592,78.48931858991676
+Hakimpet,Alwal Police Station,Malakpet PS,0.417,UNMATCHED,17.370483105794303,78.51209037039057
+Humayun Nagar,Humayun Nagar Police Station,Humayun_nagar_PS_&_ACP_Asif_nagar_division,0.613,LOW,17.395574603557584,78.44236657241139
+Moghalpura,Moghalpura Police Station,Moghalpura PS,0.774,MEDIUM,17.35057888310834,78.47884911365695
+Abdullapurmet,Abdullapurmet Police Station,Malakpet PS,0.5,LOW,17.370483105794303,78.51209037039057
+Lothkunta,Alwal Police Station,Malakpet PS,0.417,UNMATCHED,17.370483105794303,78.51209037039057
+Mylargada,Chilakalguda Police Station,Chilkalguda PS,0.765,MEDIUM,17.430695900791868,78.51353880833102
+Dullapally,Petbasheerabad Police Station,Musheerabad PS,0.611,LOW,17.41938218594895,78.50027317304769
+Neeladri Nagar,LB Nagar Police Station,SR_Nagar_PS,0.593,LOW,17.4406022910235,78.44268720104698
+Kanchan Bagh,Kanchanbagh Police Station,Karkhana PS,0.533,LOW,17.461866935526206,78.50049772104443
+Saleem Nagar,Malakpet Police Station,Malakpet PS,0.741,MEDIUM,17.370483105794303,78.51209037039057
+Kakaguda,Karkhana Police Station,Karkhana PS,0.741,MEDIUM,17.461866935526206,78.50049772104443
+Pahadi Shareef,Pahadi Shareef Police Station,Bhavani Nagar PS,0.421,UNMATCHED,17.35488264225087,78.48763870304802
+Kongara Kalan,Adibatla Police Station,Gandhinagar PS,0.467,UNMATCHED,17.430629801392875,78.49703896281997
+Indresham,Patancheru Police Station,Langer_House_PS,0.424,UNMATCHED,17.378213937270864,78.42165085868263
+Riyasat Nagar,Santoshnagar Police Station,Gandhinagar PS,0.588,LOW,17.430629801392875,78.49703896281997
+Karwan,Kulsumpura Police Station,Moghalpura PS,0.452,UNMATCHED,17.35057888310834,78.47884911365695
+SD Road,Gopalapuram Police Station,Gopalpuram PS & Barracks,0.571,LOW,17.437087475356556,78.50457836195113
+Yakutpura,Rein Bazar Police Station,Rein Bazar PS,0.774,MEDIUM,17.361815753205235,78.48848216038299
+Jawahar Nagar,Jawaharnagar Police Station,Habeebnagar_PS,0.529,LOW,17.389867280590032,78.46284674845745
+Walker Town,Chilakalguda Police Station,Chilkalguda PS,0.765,MEDIUM,17.430695900791868,78.51353880833102
+Uppaguda,Chatrinaka Police Station,Chatrinaka PS (New ),0.75,MEDIUM,17.33987991208103,78.48010891282199
+Nawab Saheb Kunta,Falaknuma Police Station,Nallakunta Tr.PS,0.485,UNMATCHED,17.407716031874426,78.51323553085685
+Lallaguda,Lallaguda Police Station,Chilkalguda PS,0.581,LOW,17.430695900791868,78.51353880833102
+Vayupuri,Neredmet Police Station,Begumpet PS,0.444,UNMATCHED,17.44516199134444,78.47394511198175
+Pavanpuri Colony,Sainikpuri Police Station,Hussainialam PS,0.424,UNMATCHED,17.358117398313993,78.46409324707112
+Lumbini Park,Saifabad Police Station,Saifabad PS,0.741,MEDIUM,17.40320795518996,78.47245161532967
+Saifabad,Saifabad Police Station,Saifabad PS,0.741,MEDIUM,17.40320795518996,78.47245161532967
+Narketpalli,Narketpally Police Station,Marredpally PS,0.606,LOW,17.451382682131534,78.50537252510067
+Burgul,Farooqnagar Police Station,SR_Nagar_PS,0.533,LOW,17.4406022910235,78.44268720104698
+Osman Sagar Road,Gandipet Police Station,"Bansilalpet Old Traffic PS,",0.513,LOW,17.43111384154843,78.4924373317577
+Vattepally,Mailardevpally Police Station,Marredpally PS,0.611,LOW,17.451382682131534,78.50537252510067
+Zahirabad,Zaheerabad Town Police Station,Musheerabad PS,0.541,LOW,17.41938218594895,78.50027317304769
+Mazidpur,Shamirpet Police Station,Amberpet old PS,0.5,LOW,17.392285298560875,78.51668184863159
+Sultanpur,BDL Bhanur Police Station,Bhavani Nagar PS,0.412,UNMATCHED,17.35488264225087,78.48763870304802
+Jam Bagh,Abids Police Station,"Bansilalpet Old Traffic PS,",0.389,UNMATCHED,17.43111384154843,78.4924373317577
+Pulimamidi,Kandukur Police Station,Chadarghat PS Building,0.4,UNMATCHED,17.378050401742467,78.49183436096206
+Hanuman Nagar Colony,Malkajgiri Police Station,Mahankali PS,0.467,UNMATCHED,17.435993313817704,78.49096729321961
+Medak Road,Medchal Police Station,Marredpally PS,0.483,UNMATCHED,17.451382682131534,78.50537252510067
+Adarsh Nagar,Saifabad Police Station,Saifabad PS,0.741,MEDIUM,17.40320795518996,78.47245161532967
+Dayara,Keesara Police Station,Karkhana PS,0.462,UNMATCHED,17.461866935526206,78.50049772104443
+Sheriguda,Ibrahimpatnam Police Station,Ramgopalpet PS,0.457,UNMATCHED,17.436384187174937,78.48844989845288
+Rendlagadda,Keesara Police Station,Karkhana PS,0.462,UNMATCHED,17.461866935526206,78.50049772104443
+Majarguda,Shamirpet Police Station,Amberpet old PS,0.5,LOW,17.392285298560875,78.51668184863159
+Gulshan-e-Iqbal Colony,Chandrayangutta Police Station,Chandrayangutta PS,0.829,MEDIUM,17.32486980020091,78.47971175358313
+Lal Darwaza,Moghalpura Police Station,Moghalpura PS,0.774,MEDIUM,17.35057888310834,78.47884911365695
+Tupran,Toopran Police Station,Moghalpura PS,0.429,UNMATCHED,17.35057888310834,78.47884911365695
+Bairagiguda,Narsingi Police Station,Humayun_nagar_PS_&_ACP_Asif_nagar_division,0.421,UNMATCHED,17.395574603557584,78.44236657241139
+Dhoolpet,Mangalhat Police Station,Mangalhat PS,0.759,MEDIUM,17.37839245959049,78.46076135413617
+Ghansi Bazar,Charminar Police Station,Charminar Tr. PS,0.688,MEDIUM,17.3617769711545,78.47516624126203
+NTR Nagar,LB Nagar Police Station,SR_Nagar_PS,0.593,LOW,17.4406022910235,78.44268720104698
+Rasoolpura,Begumpet Police Station,Begumpet PS,0.741,MEDIUM,17.44516199134444,78.47394511198175
+Chintapallyguda,Ibrahimpatnam Police Station,Ramgopalpet PS,0.457,UNMATCHED,17.436384187174937,78.48844989845288
+Venkat Reddy Colony,Ramanthapur Police Station,Moghalpura PS,0.5,LOW,17.35057888310834,78.47884911365695
+Jeera,Gopalapuram Police Station,Gopalpuram PS & Barracks,0.571,LOW,17.437087475356556,78.50457836195113
+Shahbad,Shahbad Police Station,Musheerabad PS,0.552,LOW,17.41938218594895,78.50027317304769
+Dasarlapally,Kandukur Police Station,Chadarghat PS Building,0.4,UNMATCHED,17.378050401742467,78.49183436096206
+Shameerpet,Shamirpet Police Station,Amberpet old PS,0.5,LOW,17.392285298560875,78.51668184863159
+Sindhi Colony,Begumpet Police Station,Begumpet PS,0.741,MEDIUM,17.44516199134444,78.47394511198175
+Siddhartha Nagar,SR Nagar Police Station,SR_Nagar_PS,0.741,MEDIUM,17.4406022910235,78.44268720104698
+Edulanagulapalle,BDL Bhanur Police Station,Bhavani Nagar PS,0.412,UNMATCHED,17.35488264225087,78.48763870304802
+Rani Gunj,Gopalapuram Police Station,Gopalpuram PS & Barracks,0.571,LOW,17.437087475356556,78.50457836195113
+Afzal Gunj,Afzalgunj Police Station,Afzalgunj PS Building,0.686,MEDIUM,17.372313119677994,78.47533102756461
+Kazipally,Balanagar Police Station,Bhavani Nagar PS,0.606,LOW,17.35488264225087,78.48763870304802
+Moti Ganpur,Patancheru Police Station,Langer_House_PS,0.424,UNMATCHED,17.378213937270864,78.42165085868263
+Maisireddipalle,Toopran Police Station,Moghalpura PS,0.429,UNMATCHED,17.35057888310834,78.47884911365695
+Mirkhanpet,Kandukur Police Station,Chadarghat PS Building,0.4,UNMATCHED,17.378050401742467,78.49183436096206
+Ravulapalle Khurd,Farooqnagar Police Station,SR_Nagar_PS,0.533,LOW,17.4406022910235,78.44268720104698
+Tulekhurd,Ibrahimpatnam Police Station,Ramgopalpet PS,0.457,UNMATCHED,17.436384187174937,78.48844989845288
+Toroor,Hayathnagar Police Station,Bhavani Nagar PS,0.571,LOW,17.35488264225087,78.48763870304802
+Kurmaguda,Saidabad Police Station,Saifabad PS,0.667,MEDIUM,17.40320795518996,78.47245161532967
+Seetharampally,Moinabad Police Station,Saifabad PS,0.519,LOW,17.40320795518996,78.47245161532967
+Bogaram,Keesara Police Station,Karkhana PS,0.462,UNMATCHED,17.461866935526206,78.50049772104443

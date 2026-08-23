@@ -1,0 +1,80 @@
+object_id,district,police_property,mandal,ward,zone,latitude,longitude
+3,Hyderabad,Banjara Hills PS,SHAIKPET,WARD-11,Hyderabad_West Zone,17.423051842195797,78.43619625352656
+4,Hyderabad,Begumbazar PS,Nampally,WARD-47,Hyderabad_West Zone,17.382586512709825,78.47045146711685
+7,Hyderabad,Golconda PS,Golconda,WARD-16,Hyderabad_West Zone,17.390448334038723,78.40539750475249
+9,Hyderabad,Habeebnagar_PS,Nampally,WARD-41,Hyderabad_West Zone,17.389867280590032,78.46284674845745
+10,Hyderabad,Humayun_nagar_PS_&_ACP_Asif_nagar_division,Asif Nagar ,WARD-22,Hyderabad_West Zone,17.395574603557584,78.44236657241139
+11,Hyderabad,Jubilee Hills PS,SHAIKPET,WARD-9,Hyderabad_West Zone,17.43060325248873,78.40912999439273
+14,Hyderabad,Langer_House_PS,Asif Nagar ,WARD-19,Hyderabad_West Zone,17.378213937270864,78.42165085868263
+15,Hyderabad,Mangalhat PS,Asif Nagar ,WARD-31,Hyderabad_West Zone,17.37839245959049,78.46076135413617
+22,Hyderabad,Panjagutta_PS_1_ACP,Khairathabad,WARD-89,Hyderabad_West Zone,17.42619850679446,78.45238613698636
+23,Hyderabad,Panjagutta_PS_2,Khairathabad,WARD-89,Hyderabad_West Zone,17.425901841531967,78.45251535712849
+24,Hyderabad,Panjagutta_PS_3,Khairathabad,WARD-89,Hyderabad_West Zone,17.426402142417125,78.45228859454625
+27,Hyderabad,Shahinayathgunj new  PS,Nampally,WARD-45,Hyderabad_West Zone,17.37653971108745,78.46956044646493
+28,Hyderabad,Shahinayathgunj_old_PS,Nampally,WARD-44,Hyderabad_West Zone,17.37661478567255,78.46537121339577
+29,Hyderabad,Shahinayathgunj_PS_&_ACP_Goshamahal,NAMPALLY,WARD-45,Hyderabad_West Zone,17.377399507018893,78.47059315287679
+30,Hyderabad,SR_Nagar_PS,Khairathabad,WARD-7,Hyderabad_West Zone,17.4406022910235,78.44268720104698
+31,Hyderabad,SR_Nagar_PS_New_(un_constructed),Khairathabad,WARD-7,Hyderabad_West Zone,17.440565200820885,78.44271682100108
+32,Hyderabad,Tappachabutra_old_PS,Asif Nagar ,WARD-27,Hyderabad_West Zone,17.37369762233576,78.4477441439166
+34,Hyderabad,Tappachabutra_PS,Asif Nagar ,WARD-27,Hyderabad_West Zone,17.37519557161588,78.44928433657503
+35,Hyderabad,"Bansilalpet Old Traffic PS,",SECUNDERABAD,Ward-103,Hyderabad_North Zone,17.43111384154843,78.4924373317577
+36,Hyderabad,Begumpet PS,SECUNDERABAD,,Hyderabad_North Zone,17.44516199134444,78.47394511198175
+37,Hyderabad,Begumpet Traffic PS,SECUNDERABAD,,Hyderabad_North Zone,17.443793813813734,78.47846588040967
+38,Hyderabad,Bollarum PS,SECUNDERABAD,,Hyderabad_North Zone,17.51783748731024,78.51955122623737
+39,Hyderabad,Chilkalguda PS barrack,MUSHEERABAD,WARD-139,Hyderabad_North Zone,17.429496739058425,78.5124004928615
+40,Hyderabad,Chilkalguda PS,MAREDPALLY,WARD-123,Hyderabad_North Zone,17.430695900791868,78.51353880833102
+42,Hyderabad,Gopalpuram PS & Barracks,SECUNDERABAD,WARD-115,Hyderabad_North Zone,17.437087475356556,78.50457836195113
+43,Hyderabad,Karkhana PS,TIRUMALGHERRY,,Hyderabad_North Zone,17.461866935526206,78.50049772104443
+44,Hyderabad,Mahankali PS,SECUNDERABAD,Ward-103,Hyderabad_North Zone,17.435993313817704,78.49096729321961
+45,Hyderabad,Mahankali Traffic PS,SECUNDERABAD,Ward-107,Hyderabad_North Zone,17.433635967978365,78.4959140390851
+46,Hyderabad,Market old  PS,SECUNDERABAD,Ward-106,Hyderabad_North Zone,17.437034492944417,78.49634364306264
+47,Hyderabad,Marredpally PS,SECUNDERABAD,,Hyderabad_North Zone,17.451382682131534,78.50537252510067
+49,Hyderabad,Police Line Bowenpally & PS,TIRUMALGHERRY,,Hyderabad_North Zone,17.46454543206288,78.47206165436793
+51,Hyderabad,Tirmulgherry Traffic PS,TIRUMALGHERRY,,Hyderabad_North Zone,17.472322709895035,78.50964905098365
+52,Hyderabad,Tukaramgat PS,TIRUMALGHERRY,WADR-130,Hyderabad_North Zone,17.445654282676692,78.51792325835994
+53,Hyderabad,Kachiguda Traffic PS,Himayath Nagar,WARD-192,Hyderabad_East Zone,17.382364012563677,78.4935939023342
+55,Hyderabad,Afzalgunj PS Building,,Ward-201,Hyderabad_East Zone,17.372313119677994,78.47533102756461
+58,Hyderabad,Malakpet PS,Saidabad,,Hyderabad_East Zone,17.370483105794303,78.51209037039057
+62,Hyderabad,Amberpet old PS,Amberpet,WARD-163,Hyderabad_East Zone,17.392285298560875,78.51668184863159
+63,Hyderabad,Chadarghat PS Building,Amberpet,WARD-178,Hyderabad_East Zone,17.378050401742467,78.49183436096206
+64,Hyderabad,Kachiguda PS Building  & Barracks,Himayath Nagar,WARD-191,Hyderabad_East Zone,17.389094919884467,78.49736482094552
+66,Hyderabad,Sultan Bazar PS Building,,WARD-195,Hyderabad_East Zone,17.388572498923793,78.48736573043266
+68,Hyderabad,Sultan Bazar Traffic PS,,WARD-198,Hyderabad_East Zone,17.38219991118553,78.48178693175787
+73,Hyderabad,Bhavani Nagar PS,Charminar,WARD-211,Hyderabad_South Zone,17.35488264225087,78.48763870304802
+77,Hyderabad,Chandrayangutta PS,Bandlaguda,WARD-267,Hyderabad_South Zone,17.32486980020091,78.47971175358313
+80,Hyderabad,Chatrinaka PS (New ),Bandlaguda,Ward-272,Hyderabad_South Zone,17.33987991208103,78.48010891282199
+88,Hyderabad,Rein Bazar PS,"Charminar
+",WARD-207,Hyderabad_South Zone,17.361815753205235,78.48848216038299
+89,Hyderabad,Rein Bazar PS Barrack,Charminar ,WARD-208,Hyderabad_South Zone,17.36148623331551,78.4907521991975
+90,Hyderabad,Dabeerpura PS,Charminar ,WARD-206,Hyderabad_South Zone,17.366561442046592,78.48931858991676
+92,Hyderabad,Charminar PS & ACP Charminar,Bhadurpura,Ward-228,Hyderabad_South Zone,17.36190353391467,78.47440837561214
+97,Hyderabad,Hussainialam PS,Bhadurpura,Ward-237,Hyderabad_South Zone,17.358117398313993,78.46409324707112
+103,Hyderabad,Police Quarter H B Colony (Bahadurpura PS),Bhadurpura,WARD-241,Hyderabad_South Zone,17.35944475039774,78.45342072287023
+104,Hyderabad,Charminar Tr. PS,Bhadurpura,WARD-216,Hyderabad_South Zone,17.3617769711545,78.47516624126203
+105,Hyderabad,Charminar Tr. PS,Bhadurpura,WARD-216,Hyderabad_South Zone,17.361627855019872,78.4751459251357
+108,Hyderabad,Pisal Banda PS(Old Santoshnagar PS),Bandlaguda,,Hyderabad_South Zone,17.341960633353125,78.50410306542845
+110,Hyderabad,Old Mirchowk PS Kalikamman,Bhadurpura,WARD-216,Hyderabad_South Zone,17.362980602676938,78.4768776545829
+112,Hyderabad,Old Yakutpura Tr.PS,Bhadurpura,WARD-214,Hyderabad_South Zone,17.374667523509096,78.48452666749756
+113,Hyderabad,Mirchowk Old Tr.PS,Bhadurpura,Ward-215,Hyderabad_South Zone,17.371234456045084,78.48196843307218
+127,Hyderabad,Moghalpura PS,Bhadurpura,Ward-218,Hyderabad_South Zone,17.35057888310834,78.47884911365695
+129,Hyderabad,Police Line Rangeli Kiddike (Moghalpura PS),Bhadurpura,WARD-212,Hyderabad_South Zone,17.35898773088571,78.48312802625509
+139,Hyderabad,Narayanaguda New PS Building,Nampally,WARD-63,Hyderabad_Central Zone,17.397656549049593,78.49000603371934
+140,Hyderabad,Narayanaguda Old PS Building,Nampally,WARD-63,Hyderabad_Central Zone,17.395421907336797,78.49062107946591
+142,Hyderabad,Abids Road PS / ACP Division Office/Tr.PS Abids,Nampally,WARD-51,Hyderabad_Central Zone,17.389027786901767,78.47592937104115
+143,Hyderabad,Begum Bazar New PS Building,Nampally,WARD-47,Hyderabad_Central Zone,17.382986601630662,78.47053635394808
+144,Hyderabad,Begum Bazar Old PS Building,Nampally,WARD-49,Hyderabad_Central Zone,17.379740010061003,78.47489308345753
+145,Hyderabad,Narayanaguda Tr. PS,Nampally,WARD-196,Hyderabad_Central Zone,17.394899002366238,78.48539058101356
+146,Hyderabad,Chikkadpally PS,Musheerabad,WARD-66,Hyderabad_Central Zone,17.408889814641352,78.49738971584661
+150,Hyderabad,Nampally Tr. Old PS,Nampally,WARD-40,Hyderabad_Central Zone,17.392412670906268,78.46889044921392
+151,Hyderabad,Saifabad Old PS,Asifnagar,WARD-38,Hyderabad_Central Zone,17.40260950418656,78.4628540734598
+152,Hyderabad,Saifabad PS,Nampally,WARD-53,Hyderabad_Central Zone,17.40320795518996,78.47245161532967
+153,Hyderabad,Nampally PS & Tr.PS(TSFSL),Asifnagar,WARD-38,Hyderabad_Central Zone,17.399771816049753,78.46035141049883
+154,Hyderabad,Nampally PS & Tr.PS(PS),Asifnagar,WARD-38,Hyderabad_Central Zone,17.40005915866965,78.46047132004604
+155,Hyderabad,Nampally PS & Tr.PS(Tr.PS),Asifnagar,WARD-38,Hyderabad_Central Zone,17.39976648236039,78.45955523636131
+156,Hyderabad,Nallakunta Old PS,Musheerabad,WARD-157,Hyderabad_Central Zone,17.40809084718139,78.51425169126888
+157,Hyderabad,Chikkadpally Tr.PS,Musheerabad,WARD-68,Hyderabad_Central Zone,17.41231853435663,78.4979642594983
+158,Hyderabad,Nallakunta Tr.PS,Musheerabad,WARD-157,Hyderabad_Central Zone,17.407716031874426,78.51323553085685
+159,Hyderabad,Musheerabad PS,Musheerabad,WARD-69,Hyderabad_Central Zone,17.41938218594895,78.50027317304769
+162,Hyderabad,Gandhinagar PS,Secundrabad,Ward-108,Hyderabad_Central Zone,17.430629801392875,78.49703896281997
+163,Hyderabad,Ramgopalpet PS,Secundrabad,Ward-102,Hyderabad_Central Zone,17.436384187174937,78.48844989845288
+164,Hyderabad,Saifabad Tr.PS,Khairathabad ,Ward-80,Hyderabad_Central Zone,17.411131855910792,78.4647292173209
