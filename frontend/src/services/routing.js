@@ -1,7 +1,6 @@
 const VALHALLA_URL =
   "https://valhalla1.openstreetmap.de/route";
 
-
 // ==================================================
 // GET ROUTES
 // ==================================================
@@ -12,64 +11,70 @@ export async function getRoutes(
   mode = "walking"
 ) {
 
+  // Normalize travel mode
+  const normalizedMode =
+    mode === "vehicle" || mode === "driving"
+      ? "driving"
+      : "walking";
+
   const [startLat, startLng] = start;
-
   const [destLat, destLng] = destination;
-
 
   // ==================================================
   // TRAVEL MODE
   // ==================================================
 
   const costing =
-    mode === "walking"
+    normalizedMode === "walking"
       ? "pedestrian"
       : "auto";
-
 
   // ==================================================
   // VALHALLA REQUEST
   // ==================================================
 
   const requestBody = {
-
     locations: [
-
       {
         lat: startLat,
         lon: startLng
       },
-
       {
         lat: destLat,
         lon: destLng
       }
-
     ],
 
     costing: costing,
 
     units: "kilometers",
 
-    // Ask Valhalla for alternatives
     alternates: 2,
 
     directions_options: {
       units: "kilometers"
     }
-
   };
 
-
   console.log(
-    "Routing request:",
-    {
-      mode,
-      start,
-      destination
-    }
+    "======================================"
   );
 
+  console.log(
+    "ROUTING REQUEST"
+  );
+
+  console.log({
+    mode,
+    normalizedMode,
+    costing,
+    start,
+    destination
+  });
+
+  console.log(
+    "======================================"
+  );
 
   // ==================================================
   // SEND REQUEST
@@ -98,16 +103,14 @@ export async function getRoutes(
   } catch (error) {
 
     console.error(
-      "Network error:",
+      "Routing network error:",
       error
     );
 
     throw new Error(
       "Unable to connect to the routing server."
     );
-
   }
-
 
   // ==================================================
   // HTTP ERROR
@@ -127,9 +130,7 @@ export async function getRoutes(
     throw new Error(
       `Routing server error (${response.status})`
     );
-
   }
-
 
   // ==================================================
   // PARSE RESPONSE
@@ -145,25 +146,22 @@ export async function getRoutes(
   } catch (error) {
 
     console.error(
-      "Invalid JSON response:",
+      "Invalid routing JSON:",
       error
     );
 
     throw new Error(
       "Invalid response from routing server."
     );
-
   }
-
 
   console.log(
     "Valhalla response:",
     data
   );
 
-
   // ==================================================
-  // CHECK PRIMARY ROUTE
+  // PRIMARY ROUTE CHECK
   // ==================================================
 
   if (
@@ -172,66 +170,52 @@ export async function getRoutes(
     data.trip.legs.length === 0
   ) {
 
-    console.error(
-      "No route response:",
-      data
-    );
-
     throw new Error(
       data.error ||
       data.message ||
-      "No road route could be found between these locations."
+      "No route could be found between these locations."
     );
-
   }
-
 
   // ==================================================
   // PRIMARY + ALTERNATE ROUTES
   // ==================================================
 
   const alternateTrips =
-  Array.isArray(data.alternates)
-    ? data.alternates.map(
-        (alternate) =>
-          alternate.trip || alternate
-      )
-    : [];
+    Array.isArray(data.alternates)
 
+      ? data.alternates.map(
+          (alternate) =>
+            alternate.trip ||
+            alternate
+        )
 
-const rawRoutes = [
-  data.trip,
-  ...alternateTrips
-];
+      : [];
 
+  const rawRoutes = [
+    data.trip,
+    ...alternateTrips
+  ];
 
   // ==================================================
-  // REMOVE INVALID ROUTES
+  // VALID ROUTES
   // ==================================================
-const validRoutes =
-  rawRoutes.filter(
-    (trip) => {
 
-      const valid =
-        trip &&
-        Array.isArray(trip.legs) &&
-        trip.legs.length > 0 &&
-        trip.summary;
+  const validRoutes =
+    rawRoutes.filter(
+      (trip) => {
 
-      if (!valid) {
-
-        console.warn(
-          "Ignoring invalid Valhalla route:",
-          trip
+        return (
+          trip &&
+          Array.isArray(
+            trip.legs
+          ) &&
+          trip.legs.length > 0 &&
+          trip.summary
         );
 
       }
-
-      return valid;
-
-    }
-  );
-
+    );
 
   // ==================================================
   // CONVERT ROUTES
@@ -246,13 +230,11 @@ const validRoutes =
           const summary =
             trip.summary;
 
-
-          // ==========================================
-          // DECODE ALL LEGS
-          // ==========================================
+          // ------------------------------------------
+          // Combine all route legs
+          // ------------------------------------------
 
           const routeCoordinates = [];
-
 
           for (
             const leg of trip.legs
@@ -262,12 +244,10 @@ const validRoutes =
               continue;
             }
 
-
             const legCoordinates =
               decodePolyline(
                 leg.shape
               );
-
 
             if (
               routeCoordinates.length === 0
@@ -279,30 +259,31 @@ const validRoutes =
 
             } else {
 
-              // Avoid duplicating the
-              // connecting point.
-
               routeCoordinates.push(
                 ...legCoordinates.slice(1)
               );
 
             }
-
           }
-
-
-          // ==========================================
-          // MAKE SURE ROUTE HAS GEOMETRY
-          // ==========================================
 
           if (
             routeCoordinates.length === 0
           ) {
 
             return null;
-
           }
 
+          // ------------------------------------------
+          // IMPORTANT:
+          // Valhalla summary.time = seconds
+          // Convert seconds -> minutes
+          // ------------------------------------------
+
+          const durationMinutes =
+            Number(summary.time) / 60;
+
+          const distanceKm =
+            Number(summary.length);
 
           return {
 
@@ -313,32 +294,24 @@ const validRoutes =
               routeCoordinates,
 
             distanceKm:
-              Number(
-                summary.length
-              ),
+              distanceKm,
 
             durationMinutes:
-              Number(
-                summary.time
-              ) / 60,
+              durationMinutes,
 
             mode:
-              mode,
+              normalizedMode,
 
             routeNumber:
               index + 1
-
           };
 
         }
       )
-      .filter(
-        Boolean
-      );
-
+      .filter(Boolean);
 
   // ==================================================
-  // ROUTE CHECK
+  // SAFETY CHECK
   // ==================================================
 
   if (
@@ -348,14 +321,15 @@ const validRoutes =
     throw new Error(
       "The routing server did not return a usable route."
     );
-
   }
 
+  // ==================================================
+  // DEBUG
+  // ==================================================
 
   console.log(
-    `Found ${routes.length} route(s)`
+    `Found ${routes.length} ${normalizedMode} route(s)`
   );
-
 
   routes.forEach(
     (route) => {
@@ -363,17 +337,15 @@ const validRoutes =
       console.log(
         route.id,
         "|",
-        route.coordinates.length,
-        "points |",
-        route.distanceKm,
+        route.distanceKm.toFixed(2),
         "km |",
         route.durationMinutes.toFixed(1),
-        "min"
+        "min |",
+        route.mode
       );
 
     }
   );
-
 
   return routes;
 }
@@ -395,14 +367,9 @@ function decodePolyline(
 
   const coordinates = [];
 
-
   while (
     index < encoded.length
   ) {
-
-    // ==============================================
-    // LATITUDE
-    // ==============================================
 
     let shift = 0;
 
@@ -410,6 +377,9 @@ function decodePolyline(
 
     let byte;
 
+    // ----------------------------------------------
+    // LATITUDE
+    // ----------------------------------------------
 
     do {
 
@@ -418,36 +388,30 @@ function decodePolyline(
           index++
         ) - 63;
 
-
       result |=
         (byte & 0x1f)
         << shift;
-
 
       shift += 5;
 
     } while (
       byte >= 0x20
     );
-
 
     const deltaLat =
       (result & 1)
         ? ~(result >> 1)
         : result >> 1;
 
-
     lat += deltaLat;
 
-
-    // ==============================================
+    // ----------------------------------------------
     // LONGITUDE
-    // ==============================================
+    // ----------------------------------------------
 
     shift = 0;
 
     result = 0;
-
 
     do {
 
@@ -456,11 +420,9 @@ function decodePolyline(
           index++
         ) - 63;
 
-
       result |=
         (byte & 0x1f)
         << shift;
-
 
       shift += 5;
 
@@ -468,30 +430,18 @@ function decodePolyline(
       byte >= 0x20
     );
 
-
     const deltaLng =
       (result & 1)
         ? ~(result >> 1)
         : result >> 1;
 
-
     lng += deltaLng;
 
-
-    // ==============================================
-    // ADD COORDINATE
-    // ==============================================
-
     coordinates.push([
-
       lat / 1e6,
-
       lng / 1e6
-
     ]);
-
   }
-
 
   return coordinates;
 }

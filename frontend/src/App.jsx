@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+﻿import { useEffect, useState } from "react";
 
 import {
   MapContainer,
@@ -285,7 +285,17 @@ function App() {
           mode
         );
 
-
+        console.table(
+  results.map(route => ({
+    mode: route.mode,
+    distance: route.distanceKm,
+    minutes: Number(
+      route.durationMinutes ??
+      route.durationMin ??
+      0
+    )
+  }))
+);
       console.log(
         "Routes received:",
         results
@@ -571,7 +581,7 @@ function App() {
         {locationLoading && (
 
           <span>
-            ðŸ“ Detecting your location...
+            Ã°Å¸â€œ Detecting your location...
           </span>
 
         )}
@@ -582,7 +592,7 @@ function App() {
           !destination && (
 
           <span className="success">
-            ðŸ“ Location detected â€”
+            Ã°Å¸â€œ Location detected Ã¢â‚¬â€
             click anywhere on the map
             to select destination
           </span>
@@ -593,7 +603,7 @@ function App() {
         {routing && (
 
           <span>
-            ðŸ›£ï¸ Finding real road route...
+            Ã°Å¸â€ºÂ£Ã¯Â¸ Finding real road route...
           </span>
 
         )}
@@ -602,7 +612,7 @@ function App() {
         {safetyLoading && (
 
           <span>
-            ðŸ¤– AI analyzing route safety...
+            Ã°Å¸Â¤â€“ AI analyzing route safety...
           </span>
 
         )}
@@ -614,7 +624,7 @@ function App() {
 
           <span className="success">
 
-            âœ… {routes.length} route
+            Ã¢Å“â€¦ {routes.length} route
             {routes.length !== 1
               ? "s"
               : ""} found
@@ -627,7 +637,7 @@ function App() {
         {locationError && (
 
           <span className="error">
-            âš ï¸ {locationError}
+            Ã¢Å¡ Ã¯Â¸ {locationError}
           </span>
 
         )}
@@ -701,7 +711,7 @@ function App() {
               <Popup>
 
                 <strong>
-                  ðŸ“ Your Location
+                  Ã°Å¸â€œ Your Location
                 </strong>
 
               </Popup>
@@ -724,7 +734,7 @@ function App() {
               <Popup>
 
                 <strong>
-                  ðŸŽ¯ Destination
+                  Ã°Å¸Å½Â¯ Destination
                 </strong>
 
               </Popup>
@@ -817,14 +827,34 @@ function App() {
             TRAVEL MODE
         ===================================================== */}
 
-        <div className="mode-card">
+        <div
+          className="mode-card"
+          style={{
+            position: "absolute",
+            zIndex: 1000,
+            left: "20px",
+            bottom: "20px",
+            background: "#ffffff",
+            padding: "14px",
+            borderRadius: "12px",
+            boxShadow: "0 4px 16px rgba(0,0,0,0.18)",
+            minWidth: "250px",
+          }}
+        >
 
           <strong>
             Travel Mode
           </strong>
 
 
-          <div className="mode-buttons">
+          <div
+            className="mode-buttons"
+            style={{
+              display: "flex",
+              gap: "8px",
+              marginTop: "10px",
+            }}
+          >
 
             <button
 
@@ -839,10 +869,25 @@ function App() {
                   "walking"
                 )
               }
-
+              style={{
+                flex: 1,
+                padding: "10px 12px",
+                borderRadius: "8px",
+                border: "1px solid #cbd5e1",
+                background:
+                  travelMode === "walking"
+                    ? "#0f172a"
+                    : "#f8fafc",
+                color:
+                  travelMode === "walking"
+                    ? "#ffffff"
+                    : "#0f172a",
+                cursor: "pointer",
+                fontWeight: 600,
+              }}
             >
 
-              ðŸš¶ Walking
+              🚶 Walking
 
             </button>
 
@@ -860,10 +905,25 @@ function App() {
                   "driving"
                 )
               }
-
+              style={{
+                flex: 1,
+                padding: "10px 12px",
+                borderRadius: "8px",
+                border: "1px solid #cbd5e1",
+                background:
+                  travelMode === "driving"
+                    ? "#0f172a"
+                    : "#f8fafc",
+                color:
+                  travelMode === "driving"
+                    ? "#ffffff"
+                    : "#0f172a",
+                cursor: "pointer",
+                fontWeight: 600,
+              }}
             >
 
-              ðŸš— Vehicle
+              🚗 Vehicle
 
             </button>
 
@@ -881,7 +941,7 @@ function App() {
           <div className="destination-card">
 
             <strong>
-              ðŸŽ¯ Destination
+              Ã°Å¸Å½Â¯ Destination
             </strong>
 
             <div>
@@ -920,7 +980,7 @@ function App() {
 
           <div className="route-card">
 
-            ðŸ›£ï¸ Finding route...
+            Ã°Å¸â€ºÂ£Ã¯Â¸ Finding route...
 
           </div>
 
@@ -935,7 +995,7 @@ function App() {
 
           <div className="route-error">
 
-            âš ï¸ {routeError}
+            Ã¢Å¡ Ã¯Â¸ {routeError}
 
           </div>
 
@@ -950,7 +1010,7 @@ function App() {
 
           <div className="route-error">
 
-            âš ï¸ {safetyError}
+            Ã¢Å¡ Ã¯Â¸ {safetyError}
 
           </div>
 
@@ -965,7 +1025,7 @@ function App() {
 
           <div className="route-card">
 
-            ðŸ¤– Analyzing safety of route
+            Ã°Å¸Â¤â€“ Analyzing safety of route
             {routes.length > 1
               ? "s"
               : ""}...
@@ -1041,10 +1101,10 @@ function App() {
                     <div className="route-title">
 
                       {index === 0
-                        ? "âš¡ Route"
+                        ? "Ã¢Å¡Â¡ Route"
                         : index === 1
-                          ? "âš–ï¸ Alternative"
-                          : "ðŸ›¡ï¸ Alternative"
+                          ? "Ã¢Å¡â€“Ã¯Â¸ Alternative"
+                          : "Ã°Å¸â€ºÂ¡Ã¯Â¸ Alternative"
                       }
 
                     </div>
@@ -1063,10 +1123,14 @@ function App() {
                       {" "}
                       km
 
-                      {" â€¢ "}
+                      {" Ã¢â‚¬Â¢ "}
 
                       {Math.round(
-                        route.durationMinutes
+                        Number(
+                          route.durationMinutes ??
+                          route.durationMin ??
+                          0
+                        )
                       )}
 
                       {" "}
@@ -1098,7 +1162,7 @@ function App() {
 
                         >
 
-                          ðŸ›¡ï¸ Safety:
+                          Ã°Å¸â€ºÂ¡Ã¯Â¸ Safety:
 
                           {" "}
 
@@ -1112,7 +1176,7 @@ function App() {
 
                           </strong>
 
-                          {" â€¢ "}
+                          {" Ã¢â‚¬Â¢ "}
 
                           <strong>
 
@@ -1150,16 +1214,19 @@ function App() {
                         </div>
 
 
-                        {safety.dangerous_segments &&
-                          safety.dangerous_segments.length > 0 && (
+                     {safety.dangerous_segments &&
+  safety.dangerous_segments.length > 0 && (
 
-                          <div className="danger-warning">
+  <div className="danger-warning">
 
-                            Risk: <strong>High</strong>
+    <span>Crime</span>
+    <span>CCTV</span>
+    <span>Police</span>
+    <span>Amenities</span>
 
-                          </div>
+  </div>
 
-                        )}
+)}
 
                       </>
 
@@ -1168,7 +1235,7 @@ function App() {
                       <div className="safety-pending">
 
                         {safetyLoading
-                          ? "ðŸ¤– Analyzing safety..."
+                          ? "Ã°Å¸Â¤â€“ Analyzing safety..."
                           : "Safety data unavailable"}
 
                       </div>

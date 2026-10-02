@@ -1,3 +1,4 @@
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -225,6 +226,52 @@ footer{border-top:1px solid var(--line);margin:0 42px;padding:17px 0;display:fle
 .route-option-line{pointer-events:none}
 
 
+
+/* ============================================================
+   TRAVEL MODE
+   ============================================================ */
+.travel-mode{
+  margin-top:16px;
+  padding:14px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:#091d28;
+}
+.travel-mode-title{
+  color:#6f8992;
+  font-size:9px;
+  letter-spacing:.15em;
+  margin-bottom:10px;
+}
+.travel-mode-buttons{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:9px;
+}
+.travel-mode-button{
+  border:1px solid #294b57;
+  background:#0b222d;
+  color:#aac5c8;
+  border-radius:8px;
+  padding:12px;
+  font-weight:800;
+  font-size:11px;
+}
+.travel-mode-button:hover{
+  border-color:#63dfc5;
+}
+.travel-mode-button.active{
+  border-color:#63dfc5;
+  background:rgba(99,223,197,.12);
+  color:#63dfc5;
+  box-shadow:inset 0 0 0 1px rgba(99,223,197,.15);
+}
+.travel-mode-status{
+  margin-top:9px;
+  color:#607a84;
+  font-size:9px;
+}
+
 </style>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -252,7 +299,7 @@ crossorigin=""/>
     </div>
 
     <nav class="nav">
-      <button class="active" data-page="overview"><i>⌂</i>Overview</button>
+      <button class="active" data-page="overview"><i>Œ‚</i>Overview</button>
       <button data-page="map"><i>⌖</i>My location</button>
       <button data-page="route"><i>⇄</i>Safe route</button>
       <button data-page="resources"><i>◇</i>Resources</button>
@@ -293,7 +340,7 @@ crossorigin=""/>
       <div class="section-title"><div class="eyebrow">HOW IT WORKS</div><h2>Four signals. One clearer decision.</h2></div>
       <div class="cards">
         <div class="card"><div class="icon">◉</div><div class="card-head"><h3>Crime risk</h3><b>40%</b></div><p>Crime-rate signal across the selected area.</p></div>
-        <div class="card"><div class="icon">▦</div><div class="card-head"><h3>CCTV coverage</h3><b>30%</b></div><p>Visibility and surveillance availability.</p></div>
+        <div class="card"><div class="icon">▪</div><div class="card-head"><h3>CCTV coverage</h3><b>30%</b></div><p>Visibility and surveillance availability.</p></div>
         <div class="card"><div class="icon">⌖</div><div class="card-head"><h3>Police coverage</h3><b>20%</b></div><p>Proximity to current police facilities.</p></div>
         <div class="card"><div class="icon">◇</div><div class="card-head"><h3>Public places</h3><b>10%</b></div><p>Nearby activity and public-place availability.</p></div>
       </div>
@@ -357,6 +404,21 @@ crossorigin=""/>
         <button class="primary" id="analyze">Show route</button>
       </div>
 
+      <div class="travel-mode">
+        <div class="travel-mode-title">TRAVEL MODE</div>
+        <div class="travel-mode-buttons">
+          <button class="travel-mode-button active" id="walkingMode" type="button">
+            🚶 Walking
+          </button>
+          <button class="travel-mode-button" id="drivingMode" type="button">
+            🚗 Vehicle
+          </button>
+        </div>
+        <div class="travel-mode-status" id="travelModeStatus">
+          Walking route selected
+        </div>
+      </div>
+
       <div id="routeMapWrap" class="map-wrap hidden">
         <div class="map-toolbar">
           <div>
@@ -382,7 +444,7 @@ crossorigin=""/>
       <div class="resource-grid">
         <div class="card resource"><div class="big-icon">🚨</div><h3>SOS</h3><p>Activate emergency mode instantly.</p><button id="resourceSos">Activate →</button></div>
         <div class="card resource"><div class="big-icon">⌖</div><h3>Police access</h3><p>Use police proximity as one of the safety signals.</p><button data-go="map">Explore →</button></div>
-        <div class="card resource"><div class="big-icon">▦</div><h3>CCTV awareness</h3><p>Understand how visibility affects route safety.</p><button data-go="route">Explore →</button></div>
+        <div class="card resource"><div class="big-icon">▪</div><h3>CCTV awareness</h3><p>Understand how visibility affects route safety.</p><button data-go="route">Explore →</button></div>
       </div>
     </section>
 
@@ -643,7 +705,7 @@ function requestUserLocation(){
       status.textContent = "Location permission needed";
       loading.innerHTML =
         "<strong>We could not access your location</strong>" +
-        "<span>Allow location access and press “Update my location”.</span>";
+        "<span>Allow location access and press “Update my location.</span>";
     },
     {enableHighAccuracy:true,timeout:10000,maximumAge:30000}
   );
@@ -721,19 +783,31 @@ async function geocodeDestination(place) {
   ];
 }
 
-async function getRoadRoutes(start, destination) {
+async function getRoadRoutes(start, destination, mode = "walking") {
   const startLonLat = `${start[1]},${start[0]}`;
   const destinationLonLat = `${destination[1]},${destination[0]}`;
 
+  const profile =
+    mode === "driving"
+      ? "driving"
+      : "foot";
+
+  const server =
+    mode === "driving"
+      ? "https://routing.openstreetmap.de/routed-car"
+      : "https://routing.openstreetmap.de/routed-foot";
+
   const url =
-    "https://routing.openstreetmap.de/routed-foot/route/v1/driving/" +
+    `${server}/route/v1/${profile}/` +
     `${startLonLat};${destinationLonLat}` +
     "?alternatives=true&overview=full&geometries=geojson&steps=false";
 
   const response = await fetch(url);
 
   if (!response.ok) {
-    throw new Error("Road route service is unavailable.");
+    throw new Error(
+      `${mode === "driving" ? "Vehicle" : "Walking"} route service is unavailable.`
+    );
   }
 
   const data = await response.json();
@@ -743,15 +817,19 @@ async function getRoadRoutes(start, destination) {
     !data.routes ||
     !data.routes.length
   ) {
-    throw new Error("No road route was found.");
+    throw new Error(
+      `No ${mode === "driving" ? "vehicle" : "walking"} route was found.`
+    );
   }
 
-  return data.routes.slice(0, 3).map(route => ({
+  return data.routes.slice(0, 3).map((route, index) => ({
     coordinates: route.geometry.coordinates.map(
       ([lon, lat]) => [lat, lon]
     ),
     distanceKm: route.distance / 1000,
-    durationMin: route.duration / 60
+    durationMin: route.duration / 60,
+    mode,
+    index
   }));
 }
 
@@ -825,9 +903,9 @@ function drawAvailableRoutes(routes, selectedIndex = 0) {
     const line = L.polyline(
       route.coordinates,
       {
-        color: isSelected ? "#63dfc5" : "#78929b",
-        weight: isSelected ? 7 : 4,
-        opacity: isSelected ? 0.95 : 0.55,
+        color: isSelected ? "#63dfc5" : "#000000",
+        weight: isSelected ? 7 : 7,
+        opacity: isSelected ? 1 : 0.45,
         lineCap: "round",
         lineJoin: "round",
         className: "route-option-line"
@@ -942,8 +1020,8 @@ function renderRouteCards(routes) {
       </div>
 
       <div class="risk">
-        ⚠️ ${highRiskCount}
-        high-risk segment${highRiskCount === 1 ? "" : "s"}
+        Risk factors:
+        Crime · CCTV · Police · Amenities
       </div>
 
       <div class="bar">
@@ -965,6 +1043,40 @@ function renderRouteCards(routes) {
     container.appendChild(card);
   });
 }
+
+
+let selectedTravelMode = "walking";
+
+const walkingModeButton = document.getElementById("walkingMode");
+const drivingModeButton = document.getElementById("drivingMode");
+const travelModeStatus = document.getElementById("travelModeStatus");
+
+function setTravelMode(mode) {
+  selectedTravelMode = mode;
+
+  walkingModeButton.classList.toggle("active", mode === "walking");
+  drivingModeButton.classList.toggle("active", mode === "driving");
+
+  travelModeStatus.textContent =
+    mode === "driving"
+      ? "Vehicle route selected"
+      : "Walking route selected";
+
+  // If a destination has already been calculated, recalculate immediately.
+  const to = document.getElementById("to").value.trim();
+
+  if (to) {
+    document.getElementById("analyze").click();
+  }
+}
+
+walkingModeButton.addEventListener("click", () => {
+  setTravelMode("walking");
+});
+
+drivingModeButton.addEventListener("click", () => {
+  setTravelMode("driving");
+});
 
 
 document.getElementById("analyze").addEventListener("click", async () => {
@@ -990,7 +1102,8 @@ document.getElementById("analyze").addEventListener("click", async () => {
 
     const roadRoutes = await getRoadRoutes(
       start,
-      destination
+      destination,
+      selectedTravelMode
     );
 
     button.textContent = "Analyzing 3 routes...";
@@ -1050,6 +1163,7 @@ document.getElementById("analyze").addEventListener("click", async () => {
       `${from} → ${to}`;
 
     document.getElementById("routeMapSub").textContent =
+      `${selectedTravelMode === "driving" ? "Vehicle" : "Walking"} • ` +
       `${analyzedRoutes.length} route option${analyzedRoutes.length === 1 ? "" : "s"} available`;
 
     document.getElementById("routeSummary").textContent =
@@ -1077,6 +1191,7 @@ document.getElementById("analyze").addEventListener("click", async () => {
 
     console.log(
       "SafeRoute 3-route analysis:",
+      selectedTravelMode,
       analyzedRoutes
     );
 
@@ -1119,3 +1234,4 @@ document.getElementById("closeSos").addEventListener("click",()=>{
 </script>
 </body>
 </html>
+```
